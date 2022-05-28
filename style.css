@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 1px;
+}
+
+
+.areas{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(60, 60, 60);
+}
+
+
+#menu-h .logo{
+    position: absolute;
+    left: 35px;
+    top: 7px;
+
+}
+
+
+#menu-h{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(25, 20, 63);
+    text-align: right;
+
+    
+}
+
+#menu-h li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#menu-h li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    padding: 20px;
+}
+
+#menu-h li a:hover{
+    background-color: rgb(38, 32, 80)
+}
+
+#menu-h .carrinho{
+    background-color: rgb(255, 200, 3);
+    padding: 12px;
+   
+}
+
+#menu-h .carrinho li a:hover{
+    background-color: rgb(255, 200, 3);
+    padding: 12px;
+    display: inline;
+   
+}
+
+#menu-h .carrinho a{
+    color: rgb(38, 32, 80);
+}
+
+
+.anuncio{
+    background-color: rgb(38, 32, 80);
+    color: rgb(255, 200, 3);
+    padding: 7.5px;
+    text-align: center;
+}
+
+#divBusca{
+    border:solid 1px rgb(255, 255, 255);
+    border-radius:10px;
+    height:37px;
+    width:400px;
+    margin-top: 25px;
+  }
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:226px;
+  }
+
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+  }
+
+  #divBusca img{
+    float:left;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 350px;
+    margin-top: -27.3px;
+    height: 25px;
+  }
+
+
+  
+  .categoria{
+      position: absolute;
+      margin-top: -640px;
+      font-size: 20px;
+      background-color: rgb(38, 32, 80);
+      padding: 10px;
+      color: #fff;
+  }
+
+  .categoria1{
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(38, 32, 80);
+    padding: 10px;
+    color: #fff;
+    top: 817px;
+}
+
+
+
+
+h3{
+    color: white;
+}
+
+
+
+
+
+ .fileiras{
+     list-style: none;
+     display: flex;
+     margin: 230px;
+     margin-top: 160px;
+     padding: 10px;
+ }
+
+ .fileira1 h3{
+     color: #fff;
+     justify-content: space-between;
+     padding: 5px;
+ }
+
+ button{
+     background-color: rgb(38, 32, 80);
+     color: #fff;
+     height: 35px;
+     width: 165px;
+    font-size: 11px;
+ }
+
